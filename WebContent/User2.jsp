@@ -1,28 +1,19 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-<head>
-	<title>
-		User Details
-	</title>
-	<link rel="stylesheet" type="text/css" href="sec_page.css">
-</head>
-<body id="content">
-	
-	<div class="header">
-		<h1>Indian Toll System</h1>
-		&nbsp;<h class="subtitle">A faster way to pay</h>
-	</div>
-	<p class="user">You are Logged In...</p>
-	<div id="details">
-		<p>
-			Name:<%=(String)session.getAttribute("Name") %><br>
-			Car number:<%=(String)session.getAttribute("Car") %><br>
-			Adhaar Number:<%=(String)session.getAttribute("Adhar") %><br>
-			Mobile Number:<%=(String)session.getAttribute("Mobile") %><br>
-			Transaction Details:<br>
-		</p>
-		
+	<head>
+		<title>User Details</title>
+		<style>
+			
+			h1.title{color:#3f51bf;text-align:center;font-size:450%;border:2px outset red;margin-bottom:5px;padding:50px;/* background-color:#ffab91 */}
+			#details{color:#455a64;font-size:20px;padding:0px 0px 0px 50px ;}
+		</style>
+	</head>
 
-	</div>
-</body>
+
+	<body>
+		<h1 class="title">Indian Toll System</h1>
+		<pre id="details">Name:<%=(String)session.getAttribute("Name")%>	Mobile:<%=(String)session.getAttribute("Mobile") %>		Adhar:<%=(String)session.getAttribute("Adhar") %>	Car:<%=(String)session.getAttribute("Car") %></pre>
+	</body>
+
+
 </html>

@@ -19,6 +19,18 @@
   	<jsp-file>/Admin.jsp</jsp-file>
   </servlet>
   
+  
+  <servlet>
+  	<servlet-name>Admin2</servlet-name>
+  	<jsp-file>/Admin2.jsp</jsp-file>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>Admin2</servlet-name>
+  	<url-pattern>/Admin2</url-pattern>
+  </servlet-mapping>
+  
   <servlet-mapping>
   	<servlet-name>Admin1</servlet-name>
   	<url-pattern>/Admin</url-pattern>

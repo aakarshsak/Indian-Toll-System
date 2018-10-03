@@ -1,0 +1,91 @@
+#content
+{
+	background: ;
+	width: 925px;
+	margin: 0px auto 0px;
+	padding: 0px 0px 0px 0px;
+	line-height: 17px;
+	background:#ffffff;
+	border:1px solid #ddd;
+	height: 1000px;
+
+}
+div.header
+{
+	
+	overflow: hidden;
+	height: 150px;
+	width: 100%;
+
+	background-color: dodgerblue;
+	text-align: center;
+	
+	color:white;
+	font-size: 40px;
+}
+.subtitle
+{
+	font-size: 20px;
+}
+p.d
+{
+	float: left;
+	font-size: 25px;
+	margin-top: 17px;
+	margin-bottom: 5px;
+}
+#dat
+{
+	position: relative;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	border: 1px solid grey;
+	height: 25px;
+	width: 15%;
+	
+}
+p.v
+{
+	position: absolute;
+	font-size: 25px;
+	top: 150px;
+	bottom: 600px;
+	right: 300px;
+	left: 600px;
+
+}
+#search_by_car_no
+{
+	position: absolute;
+	float: right;
+	height: 25px;
+	width: 20%;
+	font-size: 15px;
+	top: 170px;
+	left: 780px;
+	right: 750px;
+	bottom: 600px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+#search
+{
+	position: absolute;
+	
+	height: 30px;
+	width: 7%;
+	font-size: 15px;
+	background: #44ac33;
+	color: white;
+	top: 170px;
+	left: 1100px;
+	right: 100px;
+	bottom: 600px;
+	border-radius: 7px;
+}
+button:hover
+{
+	background-color: #32cd32;
+}

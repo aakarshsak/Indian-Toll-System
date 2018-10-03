@@ -21,7 +21,7 @@
 	
 	if(u.isStatus())
 	{
-		response.sendRedirect("User2.jsp");
+		response.sendRedirect("Admin2.jsp");
 	}
 	else{
 %>

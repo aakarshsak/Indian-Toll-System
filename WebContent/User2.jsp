@@ -12,7 +12,12 @@
 
 	<body>
 		<h1 class="title">Indian Toll System</h1>
-		<pre id="details">Name:<%=(String)session.getAttribute("Name")%>	Mobile:<%=(String)session.getAttribute("Mobile") %>		Adhar:<%=(String)session.getAttribute("Adhar") %>	Car:<%=(String)session.getAttribute("Car") %></pre>
+		<pre id="details">Name:<%=(String)session.getAttribute("Name")%>          Mobile:<%=(String)session.getAttribute("Mobile")%>          Adhar:<%=(String)session.getAttribute("Adhar") %>          Car:<%=(String)session.getAttribute("Car") %></pre>
+	
+		<br/><br/>
+		
+
+	
 	</body>
 
 

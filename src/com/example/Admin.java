@@ -2,7 +2,13 @@ package com.example;
 
 public class Admin {
 	
-	String userid,pass;
+	String userid,pass,Name;
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
 	int toll;
 	boolean status=false;
 	public boolean isStatus() {

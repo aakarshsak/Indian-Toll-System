@@ -16,7 +16,7 @@
 	</div>
 	<div id="details" >
 		<p class="ad">
-			Welcome!Admin<br>
+			Welcome!<%=(String)session.getAttribute("Name") %><br>
 			<p class="ques">Which Highway would you like to see?</p>
 		
 		<p class="nh">
@@ -35,7 +35,6 @@
 			 </p>
 
 
-		</p>
 	</div>
 </body>
 </html>

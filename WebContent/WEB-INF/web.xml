@@ -25,6 +25,27 @@
   	<jsp-file>/Admin2.jsp</jsp-file>
   </servlet>
   
+  <servlet>
+  	<servlet-name>SearchAdmin3</servlet-name>
+  	<jsp-file>/SearchAdmin3.jsp</jsp-file>
+  </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>Admin3</servlet-name>
+  	<jsp-file>/Admin3.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Admin3</servlet-name>
+  	<url-pattern>/Admin3</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>SearchAdmin3</servlet-name>
+  	<url-pattern>/SearchAdmin3</url-pattern>
+  </servlet-mapping>
   
   <servlet-mapping>
   	<servlet-name>Admin2</servlet-name>

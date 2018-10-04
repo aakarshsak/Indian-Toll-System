@@ -1,0 +1,140 @@
+body
+{
+	margin: 0px;
+	background: url(back1.jpg);
+}
+#content
+{
+	width: 925px;
+	margin: 0px auto 0px;
+	padding: 0px 0px 0px 0px;
+	line-height: 17px;
+	border:0px solid #ddd;
+	height: 1000px;
+	bottom: 5px;
+
+}
+div.header
+{
+	
+	overflow: hidden;
+	height: 150px;
+	width: 100%;
+	color: dodgerblue;
+	text-align: center;
+	font-size: 40px;
+}
+.subtitle
+{
+	font-size: 20px;
+}
+#userlogin
+{
+	color: white;
+	position: absolute;
+	border:1px solid red;
+	padding: 10px;
+	border-radius: 5px;
+	height: 300px;
+	width: 300px;
+	top: 620px;
+	bottom: 400px;
+	left: 400px;
+	background: rgba(0,0,0,.7);
+	box-shadow: 0px 15px 25px rgba(0,0,0,.5);
+	box-sizing: border-box;
+}
+#adminlogin
+{
+	color: white;
+	position: absolute;
+	right: 100px;
+	top: 620px;
+	left: 800px;
+	border:1px solid red;
+	padding: 10px;
+	border-radius: 5px;
+	height: 300px;
+	width: 300px;
+	background: rgba(0,0,0,.7);
+	box-shadow: 0px 15px 25px rgba(0,0,0,.5);
+	box-sizing: border-box;
+}
+.user
+{
+	font-size: 25px;
+	text-align: center;
+}
+.name1
+{
+	position: absolute;
+	left: 80px;
+	top: 75px;
+
+	height: 25px;
+	font-size: 15px;
+	border-radius: 5px;
+	line-height: 5px;
+}
+.name2
+{
+	position: absolute;
+	right: 80px;
+	top: 75px;
+	height: 25px;
+	font-size: 15px;
+	border-radius: 5px;
+	line-height: 5px;
+}
+.pswd1
+{
+	position: absolute;
+	top: 130px;
+	left: 80px;
+	height: 25px;
+	font-size: 15px;
+	border-radius: 5px;
+	line-height: 5px;
+}
+.pswd2
+{
+	position: absolute;
+	top: 130px;
+	right: 80px;
+	height: 25px;
+	font-size: 15px;
+	border-radius: 5px;
+	line-height: 5px;
+}
+.login1
+{
+	position: absolute;
+	left: 120px;
+	top: 210px;
+	border-radius: 7px;
+	background-color: #44ac33;
+	font-size: 15px;
+	height: 30px;
+	width: 30%;
+	color: white;
+}
+.login2
+{
+	position: absolute;
+	right: 140px;
+	top: 210px;
+	border-radius: 7px;
+	background-color: #44ac33;
+	color: white;
+	height: 30px;
+	width: 30%;
+	font-size: 15px;
+}
+#img
+{
+	height: 60%;
+	width: 700px;
+	position: absolute;
+	top: 160px;
+	left: 400px;
+}

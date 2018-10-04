@@ -21,6 +21,8 @@
 	
 	if(u.isStatus())
 	{
+		session.setAttribute("Name",u.getName());
+		session.setAttribute("Toll",u.getToll());
 		response.sendRedirect("Admin2.jsp");
 	}
 	else{

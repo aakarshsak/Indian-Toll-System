@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Indian Toll System</title>
+	<title>
+		Home
+	</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
-
-
-	<form action="User">
-	
-	Enter Mobile No : <input type="text" name="phoneNumber"/><br/>
-	Enter Password : <input type="password" name="password"/><br/>
-	<input type="submit" value="Submit"/><br/><br/><br/><br/>
-	</form>
-	
-	
-	
-	<form action="Admin">
-	
-	Enter UserId : <input type="text" name="Username"/><br/>
-	Enter Password : <input type="password" name="password"/><br/>
-	<input type="submit" value="Submit"/><br/><br/><br/><br/>
-	</form>
-
+<body >
+	<div id="content">
+		<div class="header">
+			<h1>Indian Toll System</h1>
+			&nbsp;<h2 class="subtitle">A faster way to pay</h2>
+		</div>
+		<div>
+			<img id="img" src="img1.jpeg">
+		</div>
+		<div id="userlogin">
+			<p class="user">User</p>
+			<form action="User" >
+				
+				<input class="name1" type="text" name="phoneNumber" placeholder="Mobile number"><br>
+				<input class="pswd1" type="password" name="password" placeholder="Password"><br>
+				<input class="login2" type="submit" value="Login">
+			</form>
+		</div>
+		<div id="adminlogin">
+			<p class="user">Administrator</p>
+			<form action="Admin">
+			
+				<input class="name2" type="text" name="Username" placeholder="User name"><br>
+				<input class="pswd2" type="password" name="password" placeholder="Password"><br>
+				<input class="login2" type="submit" value="Login">
+			</form>
+		</div>
+	</div>
 </body>
 </html>
